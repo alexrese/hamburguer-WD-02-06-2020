@@ -7,7 +7,8 @@
 <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+<!-- Fonte incrivel -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <!-- css local -->
 <link rel="stylesheet" href="css/style.css">
 
@@ -22,16 +23,29 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
 
+
+
 <body>
 
     <!-- menu -->
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-            <img src="https://i.imgur.com/zGmmcJK.png" width="30" height="30" class="d-inline-block align-top"
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="https://i.imgur.com/zGmmcJK.png" width="30" height="30" class="d-inline-block align-top"
                 alt="Imagem da fome" loading="lazy">
-            Burguinho do Thiaguinho
-        </a>
-    </nav>
+        <a class="navbar-brand" href="#">Burguinho do Thiaguinho</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#receita">Receita do D.J.</a>
+            <a class="nav-item nav-link" href="#comentario">Cometário</a>
+            <a class="nav-item nav-link" href="#clientes">Clientes</a>
+            <a class="nav-item nav-link" href="#equipe">Equipe</a>
+            <a class="nav-item nav-link" href="#cardapio">Menu</a>
+            <a class="nav-item nav-link" href="#endereco">Concato</a>
+          </div>
+        </div>
+      </nav>
 
     <!-- bloco 1 -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -46,7 +60,7 @@
                     class="d-block w-100" alt="Mais imagem de fome">
             </div>
             <div class="carousel-item">
-                <img src="https://www.meudeju.com.br/wp-content/uploads/2019/10/hamburguer-victor-corona-capa-deju.png"
+                <img src="https://images.unsplash.com/photo-1583086987435-49e189663659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
                     class="d-block w-100" alt="Outra imagem de fome">
             </div>
             <div class="carousel-item">
@@ -64,10 +78,10 @@
         </a>
     </div>
     <!-- bloco 2 -->
-    <div class="container bloco-dois">
+    <div class="container bloco-dois" id="receita">
         <div class="card text-center">
             <div class="card-header">
-                Receita do D.J.
+                <h1>Receita do D.J.</h1>
             </div>
             <div class="card-body">
                 <h5 class="card-title">Uma receita secreta - deixou de ser!</h5>
@@ -110,15 +124,164 @@
 
 
     <!-- Bloco 3 -->
-    <div class="card bg-dark text-white">
-        <img src="..." class="card-img" alt="...">
-        <div class="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-            <p class="card-text">Last updated 3 mins ago</p>
+    <div class="card bg-dark text-white bloco-tres" id="comentario">
+        <img src="https://images.unsplash.com/photo-1561758033-d89a9ad46330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+            class="card-img" alt="...">
+        <div class="card-img-overlay text-center">
+            <h1 class="card-title mt-5">D.J. Aprova!</h1>
+            <h2 class="card-title mt-5">Melhor que morder o disco.</h2>
+            <h3 class="card-title mt-5">No ano de 2020 em um novo normal</h3>
         </div>
     </div>
+
+    <!-- Bloco 4 -->
+    <div class="container bloco-quatro" id="clientes">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <img src="http://d25fyzf9e0hiy5.cloudfront.net/wp-content/uploads/2018/01/10205828/chuck-norris-7.jpg"
+                        class="card-img-top" alt="Mestre">
+                    <div class="card-body">
+                        <h5 class="card-title">Lukas Mudo</h5>
+                        <p class="card-text">"O melhor hambúrguer que provei, disparadamente... indico a todos, não vão
+                            se arrepender"</p>
+                        <a href="#" class="btn btn-primary">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://i.kym-cdn.com/entries/icons/square/000/003/227/dimitri-finds-out.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pedro de Oliveira</h5>
+                        <p class="card-text">"Hamburguer muito bom, ja to querendo o próximo"</p>
+                        <a href="#" class="btn btn-primary">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://vignette.wikia.nocookie.net/chris/images/a/ad/10331502061.jpg/revision/latest?cb=20130104221203&path-prefix=pt-br"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gilmar Santos</h5>
+                        <p class="card-text">O hamburguer do D.J. estava muito bom mas a musica nem tanto... Só como
+                            aqui porque tenho dois empregos</p>
+                        <a href="#" class="btn btn-primary">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bloco 5 -->
+    <div class="card bg-dark text-white bloco-cinco" id="equipe">
+        <img src="https://images.unsplash.com/photo-1558327664-12b6ca2f4fb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80"
+            class="card-img" alt="...">
+        <div class="card-img-overlay text-center">
+            <h1 class="card-title mt-5">Nossa turma é top!</h1>
+            <p class="card-text mt-5">"A Hamburgueria tem o intuito de oferecer aos seus clientes uma experiência
+                única de sabor e diversão.</p>
+            <p class="card-text">Nosso ambiente é agradável e inovador
+                também o melhor local para reunir a família e os amigos
+                para um bate papo e ouvir nosso D.J."</p>
+            <p class="card-text">Até o pai do Cris já provou!</p>
+        </div>
+    </div>
+    </div>
+
+    <!-- bloco 6 -->
+    <div class="container bloco-seis" id="cardapio">
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="https://vistapointe.net/images/burger-2.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Burguinho do Thiaguinho</h5>
+                        <p class="card-text">Tudo o que você espera em um mega hambúrguer e mais um pouco!</p>
+                        <p class="card-text"><small class="text-muted">Desenvolvida no dia 75 de isolamento</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Psy</h5>
+                        <p class="card-text">Pao colorido Hamburger alface tomate e cebolas
+                            E o ingrediente especial do DJ</p>
+                        <p class="card-text"><small class="text-muted">Desenvolvida no dia 56 de isolamento</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_69WZ9S6NE4Yts_GeiOHuL-Dnod3LtXCpDFCSrwh28wnHL3J3RXAKq1vMug&s=10"
+                        class="card-img" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/originals/16/fa/36/16fa36cd5561c873b2d11ad195e1baaf.jpg"
+                        class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">X-T&¢n0-V1k!ng</h5>
+                        <p class="card-text">Too mjök ale ok manr’s heart er leggjumk opnað fyrir allr til sjá. Fit þinn
+                            foes inn field,inn né munu burnt inn þinn house
+                            Too much ale and a man’s heart is laid open for all to see. Fight your foes in the field,
+                            nor be burnt in your house.
+                            -Viking</p>
+                        <p class="card-text"><small class="text-muted">Desenvolvida no dia 44 de isolamento</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="endereco">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <iframe height="240px"
+                        src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://www.embedgooglemap.net/en/"></a></div>
+
+                <div class="col-sm">
+                    <div class="col-xs-12 text-center">
+                        <div class="social-media-icons col-xs-12">
+                            <ul class="list-inline col-xs-12">
+                                <a href="#"><i class="fa fa-google-plus-square fa-5x"></i></a>
+                                <a href="#"><i class="fa fa-twitter-square fa-5x"></i></a>
+                                <a href="#"><i class="fa fa-youtube-square fa-5x"></i></a>
+                                <a href="#"><i class="fa fa-rss-square fa-5x"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>Hamburgueria líder na região da Universidade de São Francisco. </p>
+                    <p>Sempre fazendo os melhores hambúrgueres da cidade desde 1987.</p>
+                </div>
+                <div class="col-sm">
+                    <img src="https://stcotvfoco.com.br/2018/09/jacquin.png" class="img-fluid" alt="...">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Zoom effect
+<div class="view overlay zoom">
+    <img src="https://i.pinimg.com/originals/16/fa/36/16fa36cd5561c873b2d11ad195e1baaf.jpg" class="img-fluid " alt="smaple image">
+    <div class="mask flex-center">
+        <p class="white-text">Zoom effect</p>
+    </div>
+</div> -->
 
 
 </body>

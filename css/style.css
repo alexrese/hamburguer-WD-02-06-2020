@@ -1,3 +1,56 @@
-.bloco-dois{
+.bloco-dois, .bloco-tres, .bloco-quatro, .bloco-cinco, .bloco-seis{
     margin-top: 50px;
+}
+.navbar-brand{
+    padding-left: 5px;
+}
+footer{
+    background: rgb(42,15,0);
+    background: linear-gradient(90deg, rgba(42,15,0,1) 0%, rgba(0,0,0,1) 100%);
+    padding: 20px 5px;
+    color:white;
+}
+
+.bloco-cinco .card-text{
+    font-size: larger;
+} 
+
+.bloco-tres, .bloco-cinco{
+    opacity:0.9
+}
+.bloco-tres:hover, .bloco-cinco:hover{
+    opacity: 1;
+}
+
+.social-media-icons ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-media-icons a {	
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px;
+}
+
+.social-media-icons a:nth-child(1) i {
+	color: #d34836;
+}
+
+.social-media-icons a:nth-child(2) i {
+	color: #4099FF;
+}
+
+.social-media-icons a:nth-child(3) i {
+	color: #b31217;
+}
+
+.social-media-icons a:nth-child(4) i {
+	color: #FF6600;
+}
+
+.social-media-icons a i:hover{
+
+    opacity: 0.5;
 }
