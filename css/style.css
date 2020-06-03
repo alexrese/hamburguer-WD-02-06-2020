@@ -1,6 +1,12 @@
 .bloco-dois, .bloco-tres, .bloco-quatro, .bloco-cinco, .bloco-seis{
     margin-top: 50px;
 }
+.fundo-receita{
+    background-image: url(https://i.imgur.com/bSJS0mn.jpg);
+}
+
+
+
 .navbar-brand{
     padding-left: 5px;
 }
