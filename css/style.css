@@ -1,62 +1,21 @@
-.bloco-dois, .bloco-tres, .bloco-quatro, .bloco-cinco, .bloco-seis{
-    margin-top: 50px;
-}
-.fundo-receita{
-    background-image: url(https://i.imgur.com/bSJS0mn.jpg);
-}
+.bloco-dois, .bloco-tres, .bloco-quatro, .bloco-cinco, .bloco-seis {margin-top: 50px;}
 
+.fundo-receita {background-image: url(../img/hamburger-pattern.jpg);}
 
+.navbar-brand {padding-left: 5px;}
 
-.navbar-brand{
-    padding-left: 5px;
-}
-footer{
-    background: rgb(42,15,0);
-    background: linear-gradient(90deg, rgba(42,15,0,1) 0%, rgba(0,0,0,1) 100%);
-    padding: 20px 5px;
-    color:white;
-}
+footer {background: rgb(42,15,0); background: linear-gradient(90deg, rgba(42,15,0,1) 0%, rgba(0,0,0,1) 100%); padding: 20px 5px 10px 5px;}
 
-.bloco-cinco .card-text{
-    font-size: larger;
-} 
+#equipe h1 {display: inline-block; margin: 0; position: relative; top: 50%; transform: translateY(-50%);}
 
-.bloco-tres, .bloco-cinco{
-    opacity:0.9
-}
-.bloco-tres:hover, .bloco-cinco:hover{
-    opacity: 1;
-}
+#clientes {margin-top: 40px;}
+#clientes div div {margin-top: 10px;}
 
-.social-media-icons ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
+#endereco div div > div {margin-bottom: 10px;}
 
-.social-media-icons a {	
-	display: inline-block;
-	text-decoration: none;
-	padding: 7px;
-}
+.bloco-cinco .card-text {font-size: larger;} 
 
-.social-media-icons a:nth-child(1) i {
-	color: #d34836;
-}
-
-.social-media-icons a:nth-child(2) i {
-	color: #4099FF;
-}
-
-.social-media-icons a:nth-child(3) i {
-	color: #b31217;
-}
-
-.social-media-icons a:nth-child(4) i {
-	color: #FF6600;
-}
-
-.social-media-icons a i:hover{
-
-    opacity: 0.5;
-}
+.social-media-icons {margin-bottom: 10px;}
+.social-media-icons img {width: 2em;}
+.social-media-icons a {display: inline-block; text-decoration: none; padding: 7px;}
+.social-media-icons a:hover{opacity: 0.5;}
