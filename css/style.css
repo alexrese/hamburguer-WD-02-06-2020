@@ -4,7 +4,15 @@ footer {background: rgb(42,15,0); background: linear-gradient(90deg, rgba(42,15,
 
 #equipe h1 {position: relative; top: 50%; transform: translateY(-50%);}
 
-.card-text {font-size: larger;} 
+@media only screen and (max-width: 540px) {
+	.dj_aprova * {font-size: 25px; margin: 25px !important}
+}
+
+@media only screen and (max-width: 370px) {
+	.dj_aprova * {font-size: 22px; margin: 20px !important}
+}
+
+.card-text {font-size: larger;}
 
 .star {width: 1.6em}
 
