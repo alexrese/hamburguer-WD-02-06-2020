@@ -1,21 +1,13 @@
-.bloco-dois, .bloco-tres, .bloco-quatro, .bloco-cinco, .bloco-seis {margin-top: 50px;}
-
 .fundo-receita {background-image: url(../img/hamburger-pattern.jpg);}
 
-.navbar-brand {padding-left: 5px;}
+footer {background: rgb(42,15,0); background: linear-gradient(90deg, rgba(42,15,0,1) 0%, rgba(0,0,0,1) 100%);}
 
-footer {background: rgb(42,15,0); background: linear-gradient(90deg, rgba(42,15,0,1) 0%, rgba(0,0,0,1) 100%); padding: 20px 5px 10px 5px;}
+#equipe h1 {position: relative; top: 50%; transform: translateY(-50%);}
 
-#equipe h1 {display: inline-block; margin: 0; position: relative; top: 50%; transform: translateY(-50%);}
+.card-text {font-size: larger;} 
 
-#clientes {margin-top: 40px;}
-#clientes div div {margin-top: 10px;}
+.star {width: 1.6em}
 
-#endereco div div > div {margin-bottom: 10px;}
-
-.bloco-cinco .card-text {font-size: larger;} 
-
-.social-media-icons {margin-bottom: 10px;}
 .social-media-icons img {width: 2em;}
-.social-media-icons a {opacity: 0.7; display: inline-block; text-decoration: none; padding: 7px;}
+.social-media-icons a {opacity: 0.7;}
 .social-media-icons a:hover{opacity: 1; transition: 0.3s;}

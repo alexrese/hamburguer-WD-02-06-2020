@@ -18,7 +18,7 @@
 		<!-- Menu Navbar -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Imagem da fome" loading="lazy">
-			<a class="navbar-brand" href="#">Burguinho do Thiaguinho</a>
+			<a class="navbar-brand pl-2" href="#">Burguinho do Thiaguinho</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -75,7 +75,7 @@
 		</div>
 		
 		<!-- Bloco 2: Receita -->
-		<div class="container bloco-dois" id="receita">
+		<div class="container mt-4" id="receita">
 			<div class="card text-center fundo-receita">
 				<div class="card-header">
 					<h1>Receita do D.J.</h1>
@@ -118,7 +118,7 @@
 		</div>
 		
 		<!-- Bloco 3: DJ Banner -->
-		<div class="card bg-dark text-white bloco-tres" id="comentario">
+		<div class="card bg-dark text-white mt-4" id="comentario">
 			<img src="img/bg_dj.jpg" class="card-img" alt="...">
 			<div class="card-img-overlay text-center">
 				<h1 class="card-title mt-5">D.J. Aprova!</h1>
@@ -127,48 +127,65 @@
 			</div>
 		</div>
 		
+		<h2 class="container mt-4">O que dizem os clientes</h2>
+		
 		<!-- Bloco 4: Feedback Clientes -->
-		<div class="container bloco-quatro" id="clientes">
+		<div class="container mt-2" id="clientes">
 			<div class="row">
-				<div class="col-sm">
-					<div class="card">
+				<!-- Feedback 1 -->
+				<div class="col-sm mt-3">
+					<div class="card shadow">
 						<img src="img/person1.jpg" class="card-img-top" alt="Mestre">
 						<div class="card-body">
 							<h5 class="card-title">Lukas Mudo</h5>
 							<p class="card-text">"O melhor hambúrguer que provei, disparadamente... indico à todos, não vão se arrepender"</p>
-							<a href="#" class="btn btn-primary">Instagram</a>
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
 						</div>
 					</div>
 				</div>
-				<div class="col-sm">
-					<div class="card">
+				<!-- Feedback 2 -->
+				<div class="col-sm mt-3">
+					<div class="card shadow">
 						<img src="img/person2.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title">Pedro de Oliveira</h5>
 							<p class="card-text">"Hambúrguer muito bom, já estou querendo mais para as próximas viajens"</p>
-							<a href="#" class="btn btn-primary">Instagram</a>
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
 						</div>
 					</div>
 				</div>
-				<div class="col-md">
-					<div class="card">
+				<!-- Feedback 3 -->
+				<div class="col-md mt-3">
+					<div class="card shadow">
 						<img src="img/person3.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title">Gilmar Santos</h5>
 							<p class="card-text">O hamburguer do D.J. estava muito bom mas a música nem tanto... Só como aqui porque tenho dois empregos!</p>
-							<a href="#" class="btn btn-primary">Instagram</a>
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
+							<img src="img/star.svg" class="star d-inline">
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
+				
 		<!-- Bloco 5: Turma Banner -->
-		<div class="container bloco-cinco" id="equipe">
+		<div class="container mt-4" id="equipe">
 			<div class="card">
 				<img src="img/bg_turma.jpg" class="card-img" alt="...">
 				<div class="card-img-overlay text-center text-white">
-					<h1 class="card-title align-middle">Nossa turma é top!</h1>
+					<h1 class="card-title d-inline-block m-0">Nossa turma é top!</h1>
 				</div>
 			</div>
 			<div class="card card-body">
@@ -178,11 +195,13 @@
 			</div>
 		</div>
 		
+		<h3 class="container mt-4">Cardápio</h2>
+		
 		<!-- Bloco 6: Cardápio -->
-		<div class="container bloco-seis" id="cardapio">
+		<div class="container mt-4" id="cardapio">
 			<!-- Burger 1 -->
 			<div class="card mb-3">
-				<div class="row no-gutters">
+				<div class="row no-gutters shadow-sm">
 					<div class="col-md-4">
 						<img src="img/cardapio1.jpg" class="card-img" alt="...">
 					</div>
@@ -197,7 +216,7 @@
 			</div>
 			<!-- Burger 2 -->
 			<div class="card mb-3">
-				<div class="row no-gutters">
+				<div class="row no-gutters shadow-sm">
 					<div class="col-md-8">
 						<div class="card-body">
 							<h5 class="card-title">X-Psy</h5>
@@ -211,8 +230,8 @@
 				</div>
 			</div>
 			<!-- Burger 3 -->
-			<div class="card mb-3">
-				<div class="row no-gutters">
+			<div class="card">
+				<div class="row no-gutters shadow-sm">
 					<div class="col-md-4">
 						<img src="img/cardapio3.jpg" class="card-img" alt="...">
 					</div>
@@ -229,26 +248,26 @@
 		</div>
 		
 		<!-- Footer -->
-		<footer id="endereco" class="text-white">
+		<footer id="endereco" class="text-white mt-3 pt-3">
 			<div class="container">
 				<div class="row ">
 					<!-- Google Maps -->
-					<div class="col-sm">
+					<div class="col-sm mb-2">
 						<iframe class="col-sm" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.574737810241!2d-122.45290738532759!3d37.77656851983047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085874a311220bb%3A0x6a56ca6f837ff84e!2sUniversidade%20de%20S%C3%A3o%20Francisco!5e0!3m2!1spt-BR!2sbr!4v1591160779340!5m2!1spt-BR!2sbr" height="240" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 					</div>
 					<!-- Ícones Sociais -->
-					<div class="col-sm text-center">
-						<div class="social-media-icons">
-						    <a href="#"><img src="img/google-plus-square.svg"></a><!--
-						 --><a href="#"><img src="img/twitter-square.svg"></a><!--
-						 --><a href="#"><img src="img/youtube-square.svg"></a><!--
-						 --><a href="#"><img src="img/rss-square.svg"></a>
+					<div class="col-sm mb-2 text-center">
+						<div class="social-media-icons mb-2">
+						    <a href="#" class="p-2 text-decoration-none d-inline-block"><img src="img/google-plus-square.svg"></a><!--
+						 --><a href="#" class="p-2 text-decoration-none d-inline-block"><img src="img/twitter-square.svg"></a><!--
+						 --><a href="#" class="p-2 text-decoration-none d-inline-block"><img src="img/youtube-square.svg"></a><!--
+						 --><a href="#" class="p-2 text-decoration-none d-inline-block"><img src="img/rss-square.svg"></a>
 						</div>
 						<p>Hamburgueria líder na região da Universidade de São Francisco. </p>
 						<p>Sempre fazendo os melhores hambúrgueres da cidade desde 1987.</p>
 					</div>
 					<!-- Jacquin -->
-					<div class="col-md">
+					<div class="col-md mb-2">
 						<img src="img/jacquin.jpg" class="img-fluid" alt="...">
 					</div>
 				</div>
