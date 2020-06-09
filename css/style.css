@@ -17,5 +17,5 @@ footer {background: rgb(42,15,0); background: linear-gradient(90deg, rgba(42,15,
 
 .social-media-icons {margin-bottom: 10px;}
 .social-media-icons img {width: 2em;}
-.social-media-icons a {display: inline-block; text-decoration: none; padding: 7px;}
-.social-media-icons a:hover{opacity: 0.5;}
+.social-media-icons a {opacity: 0.7; display: inline-block; text-decoration: none; padding: 7px;}
+.social-media-icons a:hover{opacity: 1; transition: 0.3s;}
